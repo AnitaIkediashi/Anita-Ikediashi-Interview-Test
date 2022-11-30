@@ -15,13 +15,17 @@ const Main = () => {
             nihil esse tenetur dolore minima perferendis dignissimos quidem modi
             unde?
           </p>
-          <div>
-            <button>ios APP</button>
-            <button>ANDRIOD</button>
+          <div className="flex gap-1 items-center">
+            <button className="text-orange-700 bg-orange-200 px-5 py-2 rounded">
+              ios APP
+            </button>
+            <button className="text-green-700 bg-green-200 px-5 py-2 rounded">
+              ANDRIOD
+            </button>
           </div>
-          <div>
+          <div className="flex items-center gap-5">
             <i className="fa-solid fa-link"></i>
-            <div>
+            <div className="flex gap-1 items-center">
               <span>3</span>
               <i className="fa-regular fa-comment"></i>
             </div>
@@ -34,13 +38,14 @@ const Main = () => {
             nihil esse tenetur dolore minima perferendis dignissimos quidem modi
             unde?
           </p>
-          <div>
-        
-            <button>Branding</button>
+          <div className="flex gap-1 items-center">
+            <button className="text-purple-700 bg-purple-200 px-5 py-2 rounded">
+              Branding
+            </button>
           </div>
-          <div>
+          <div className="flex items-center gap-5">
             <i className="fa-solid fa-link"></i>
-            <div>
+            <div className="flex gap-1 items-center">
               <span>3</span>
               <i className="fa-regular fa-comment"></i>
             </div>
@@ -53,13 +58,14 @@ const Main = () => {
             nihil esse tenetur dolore minima perferendis dignissimos quidem modi
             unde?
           </p>
-          <div>
-            
-            <button>WEBSITE</button>
+          <div className="flex gap-1 items-center">
+            <button className="text-blue-700 bg-blue-200 px-5 py-2 rounded">
+              WEBSITE
+            </button>
           </div>
-          <div>
+          <div className="flex items-center gap-5">
             <i className="fa-solid fa-link"></i>
-            <div>
+            <div className="flex gap-1 items-center">
               <span>3</span>
               <i className="fa-regular fa-comment"></i>
             </div>
