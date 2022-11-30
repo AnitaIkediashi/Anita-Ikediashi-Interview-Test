@@ -7,9 +7,12 @@ const Main = () => {
         <i className="fa-solid fa-file-invoice "></i>
         <i className="fa-solid fa-boxes-stacked"></i>
       </div>
-      <div className="flex items-center gap-3 mb-8">
-        <h2 className="font-semibold">Working</h2>
-        <span>(03)</span>
+      <div className="flex items-center mb-8 justify-between ">
+        <div className="flex items-center gap-3 ">
+          <h2 className="font-semibold">Working</h2>
+          <span>(03)</span>
+        </div>
+        <i className="fa-solid fa-ellipsis"></i>
       </div>
       <div className="flex flex-col gap-8 ">
         <article className="rounded bg-white flex flex-col gap-4 p-5">
