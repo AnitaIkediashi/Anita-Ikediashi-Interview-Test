@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="basis-[15rem] min-h-screen bg-white px-8 pt-[1rem] grow shrink">
+    <div className="basis-[15rem] min-h-screen bg-white px-8 pt-[1rem] grow shrink hidden lg:flex">
       <ul>
         <li className="my-8 flex gap-3 items-center">
           <i className="fa-solid fa-boxes-stacked"></i>
