@@ -13,7 +13,10 @@ const Main = () => {
       </div>
       <div className="flex flex-col gap-8 ">
         <article className="rounded bg-white flex flex-col gap-4 p-5">
-          <h3 className="font-semibold">slack</h3>
+          <div className="flex items-center justify-between">
+            <h3 className="font-semibold">slack</h3>
+            <i className="fa-solid fa-ellipsis"></i>
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eum
             nihil esse tenetur dolore minima perferendis dignissimos quidem modi
@@ -36,7 +39,10 @@ const Main = () => {
           </div>
         </article>
         <article className="rounded bg-white flex flex-col gap-4 p-5">
-          <h3 className="font-semibold">slack</h3>
+          <div className="flex items-center justify-between">
+            <h3 className="font-semibold">slack</h3>
+            <i className="fa-solid fa-ellipsis"></i>
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eum
             nihil esse tenetur dolore minima perferendis dignissimos quidem modi
@@ -56,7 +62,10 @@ const Main = () => {
           </div>
         </article>
         <article className="rounded bg-white flex flex-col gap-4 p-5">
-          <h3 className="font-semibold">slack</h3>
+          <div className="flex items-center justify-between">
+            <h3 className="font-semibold">slack</h3>
+            <i className="fa-solid fa-ellipsis"></i>
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eum
             nihil esse tenetur dolore minima perferendis dignissimos quidem modi
