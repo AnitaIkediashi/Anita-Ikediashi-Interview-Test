@@ -3,9 +3,12 @@ import React from "react";
 const Main = () => {
   return (
     <div className="grow shrink basis-full bg-gray-200 p-6 shadow-md min-h-screen">
-      <div className="w-[5rem] bg-white py-3 px-2 flex items-center justify-evenly rounded mb-8">
-        <i className="fa-solid fa-file-invoice "></i>
-        <i className="fa-solid fa-boxes-stacked"></i>
+      <div className="flex items-center mb-8 justify-between mb-8">
+        <div className="w-[5rem] bg-white py-3 px-2 flex items-center justify-evenly rounded x">
+          <i className="fa-solid fa-file-invoice "></i>
+          <i className="fa-solid fa-boxes-stacked"></i>
+        </div>
+        <i className="fa-solid fa-plus bg-purple-700 text-white w-8 h-8 grid place-items-center rounded"></i>
       </div>
       <div className="flex items-center mb-8 justify-between ">
         <div className="flex items-center gap-3 ">
